@@ -1,0 +1,98 @@
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p,
+section,
+div,
+header,
+footer,
+em,
+i,
+span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+i,
+em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+button {
+  outline: 0 none;
+  border: none;
+}
+/*px--rem*/
+/* 设计稿的 1/10 */
+/*布局 */
+.flex {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  align-items: center;
+  /*垂直居中*/
+}
+.flex-sb {
+  justify-content: space-between;
+  /*两端对齐*/
+  -webkit-box-pack: space-between;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.back {
+  background: url(../img/ico_top_1.png) no-repeat left center;
+  height: 0.45333333rem;
+  width: 0.66666667rem;
+  background-size: 0.66666667rem 0.45333333rem;
+  text-indent: -9999px;
+}
+.menu_btn {
+  background: url(../img/ico_top_2.png) no-repeat left center;
+  height: 0.45333333rem;
+  width: 0.66666667rem;
+  background-size: 0.66666667rem 0.45333333rem;
+}
+.font {
+  font-family: webdings;
+  background-color: #FA9A33;
+  border-radius: 0.26666667rem;
+  -webkit-border-radius: 0.26666667rem;
+  color: white;
+}
+.font:after {
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.font-car:after {
+  content: "h";
+}
+.font-gift:after {
+  content: "e";
+}
+.font-bicycle:after {
+  content: "b";
+}

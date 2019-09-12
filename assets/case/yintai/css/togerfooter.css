@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+/* 公共底部-------------------------------------*/
+#togerfoot{width:100%; height:290px; margin-top:40px;}
+#togerfoot .w{height:290px;}
+
+#togerfoot .w .tell{
+	width:1188px;
+	height:88px;
+	border:1px solid #eee;
+	background:#f7f7f7;
+}
+
+
+#togerfoot .w .tell .one{height:88px;}
+#togerfoot .w .tell .one span{
+	display:block;
+	width:282px;
+	height:68px;
+	padding:20px 0 0 45px;
+	border-right:1px solid #eee;
+}
+#togerfoot .w .tell .one span strong{
+	display:inline-block;
+	padding:0 20px 0 24px;
+	font-size:20px;
+	font-family:Arial;
+	color:#e5004f;
+	background:url(../images/footsp.png) no-repeat 2px 0;
+	font-weight:400;
+	line-height:1.5;
+}
+#togerfoot .w .tell .one span i{
+	font-style:normal;
+	color:#666;
+	line-height:1.5;
+}
+#togerfoot .w .tell .one span b{
+	font-size:14px;
+	font-family:Arial;
+	padding-left:24px;
+	background:url(../images/footsp.png) 0 -28px no-repeat;
+	color:#888;
+	font-weight:400;
+	line-height:1.5;
+}
+
+#togerfoot .w .tell .two{height:88px;}
+#togerfoot .w .tell .two span{
+	display:inline-block;
+	width:186px;
+	height:65px;
+	padding:23px 0 0 100px;
+	background:url(../images/footsp.png) 52px -56px no-repeat;
+	border-right:1px solid #eee;
+}
+#togerfoot .w .tell .two span strong{
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	color:#000;
+	line-height:1.5;
+}
+#togerfoot .w .tell .two span strong i{
+	font-style:normal;
+	color:#e5004f;
+}
+#togerfoot .w .tell .two span b{
+	font-weight:400;
+	color:#888;
+	line-height:1.5;
+}
+
+#togerfoot .w .tell .three span{
+	background-position:52px -132px;
+}
+
+#togerfoot .w .tell .four span{
+	width:140px;
+	border-right:none;
+	padding:23px 0 0 115px;
+	background-position:52px -203px;
+}
+
+#togerfoot .w .list{
+	width:1190px;
+	height:18px;
+	text-align:center;
+	margin-top:35px;
+	
+}
+#togerfoot .w .list a{
+	margin:0 5px;
+	color:#757575;
+	
+}
+#togerfoot .w .list a:hover{color:red;}
+
+#togerfoot .w .letter{
+	width:1190px;
+	margin-top:25px;
+}
+
+#togerfoot .w .letter p{
+	text-align:center;
+	color:#b2b2b2;
+	line-height:1.5;
+}
+
+#togerfoot .w .letter p a{
+	margin:0 6px;
+	color:#b2b2b2;
+}
+
+#togerfoot .w .end{
+	width:1190px;
+	height:48px;
+	margin:10px 0 20px;
+	text-align:center;
+}
+#togerfoot .w .end a{
+	margin:0 12px;
+	display:inline-block;
+}
+
+#togerfoot .w .end a img{width:100%; height:100%;}
+

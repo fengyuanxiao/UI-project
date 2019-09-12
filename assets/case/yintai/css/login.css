@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+#login{width:980px; height:570px; margin:0 auto;}
+#login .userlogin{
+	width:980px;
+	height:50px;
+	margin-top:22px;
+	background:url(../images/loginus1.png) 0 0 no-repeat;
+}
+#login .userlogin li.l a{
+	display:block;
+	width:241px;
+	height:20px;
+	overflow:hidden;
+	padding:0 0 25px 20px;
+	background:url(../images/loginus2.png) 0 -20px no-repeat;
+}
+#login .userlogin li.r{
+	height:35px;
+	line-height:35px;
+	padding:15px 75px 0 0;
+	color:#999;
+}
+
+#login .userlogin li.r a{
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	padding:0 5px;
+	border:1px solid #ccc;
+	color:#666;
+	background:url(../images/usersprite.png) 0 -124px repeat-x;
+}
+
+
+#login .wrap{
+	width:980px;
+	height:343px;
+	margin:45px 0 15px;
+}
+#login .write{
+	width:582px;
+	height:343px;
+}
+
+#login .wrap .write .comen{width:582px; height:62px;}
+
+#login .wrap .write .comen span{
+
+	width:130px;
+	height:32px;
+	padding-right:16px;
+	text-align:right;
+	line-height:32px;
+	font-size:14px;
+	
+}
+#login .wrap .write .comen input{
+	width:350px;
+	height:30px;
+	padding:0 5px;
+	border:1px solid #ccc;
+	background:#eee;
+	color:#333;
+}
+#login .wrap .write .comen .tip{
+	height:30px;
+	line-height:30px;
+	color:#999;
+	padding-left:146px;
+	clear:both;
+	
+}
+
+#login .wrap .write .pass .safe{width:146px; height:30px; display:none;}
+#login .wrap .write .pass .safe .l{width:48px; height:30px; line-height:30px; color:#666;}
+#login .wrap .write .pass .safe .r{width:93px; height:16px; margin-top:8px;}
+#login .wrap .write .pass .safe .r i{display:inline-block; width:30px; height:16px; line-height:15px; text-align:center; color:#fff; vertical-align:top; margin-right:1px; background:#ccc;}
+#login .wrap .write .pass .safe .r .cursor{background:#E5004F;}
+
+
+
+#login .wrap .write .piccheck{display:none;}
+
+#login .wrap .write .piccheck input{
+	width:210px;
+	height:30px;
+	padding:0 5px;
+}
+
+#login .wrap .write .piccheck .change{
+
+	width:128px;
+	height:32px;
+}
+#login .wrap .write .piccheck .change i{
+	display:inline-block;
+	width:78px;
+	height:30px;
+	border:1px solid #ccc;
+	margin-right:8px;
+	text-align:center;
+	line-height:30px;
+	font-size:18px;	
+}
+#login .wrap .write .piccheck .change a{
+	display:inline-block;
+	height:32px;
+	line-height:32px;
+	color:#999;
+}
+
+#login .wrap .write .toggle{
+	width:582px; 
+	height:62px;
+	overflow:hidden;
+}
+#login .wrap .write .toggle .check1 input{width:218px;}
+
+#login .wrap .write .toggle .check2 input{width:78px;}
+#login .wrap .write .toggle .check2 a{
+	display:inline-block;
+	width:125px;
+	height:30px;
+	border:1px solid #777;
+	margin-right:12px;
+	line-height:30px;
+	color:#fff;
+	text-align:center;
+	background:url(../images/usersprite.png) 0 -68px repeat-x;
+	vertical-align:top;
+}
+#login .wrap .write .toggle .check2 a:hover{
+	background-position:0 -80px;
+}
+#login .wrap .write .agree{height:35px; color:#666;}
+#login .wrap .write .agree input{
+	width:13px;
+	height:13px;
+	margin-right:5px;
+}
+#login .wrap .write .agree a{color:#666; text-decoration:underline;}
+#login .wrap .write .subm .btn{
+	width:186px;
+	height:32px;
+	border:1px solid #82002d;
+	margin-left:146px;
+	line-height:30px;
+	text-align:center;
+	cursor:pointer;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	background:url(../images/usersprite.png) 0 0 repeat-x;
+}
+#login .wrap .write .subm .btn:hover{
+	background-position:0 -34px;	
+}
+
+
+
+#login .ship{
+	width:950px; 
+	height:60px; 
+	overflow:hidden;
+	padding:25px 0 0 30px;
+	
+}
+
+#login .ship .tipinfor{
+	width:950px;
+	height:25px;
+	font-size:14px;
+	color:#666;
+	
+}
+
+#login .ship .apic{
+	width:950px;
+	height:26px;
+	margin-bottom:0;
+	
+}
+
+#login .ship .apic li.l{
+	width:91px;
+	height:26px;
+	margin-right:10px;
+}
+
+#login .ship .apic li.l a{
+	display:block;
+	width:89px;
+	height:24px;
+	line-height:23px;
+	color:#666;
+	border:1px solid #ccc;
+	
+	
+}
+
+#login .ship .apic li.l a span{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	margin:3px 10px 5px;
+	vertical-align:top;
+	background:url(../images/formsprite.png) no-repeat 0 0;
+}
+#login .ship .apic li.qq a span{
+	background-position:0 -26px;
+}
+
+#login .ship .apic li.phone a span{
+	background-position:0 bottom;
+}
+
+#login .ship .apic li.l a:hover{color:red;}
+
+
+#login .ship .apic li.mobile a{
+	background:url(../images/mobile.png) no-repeat 0 2px;
+}
+
+
+#login .ship .apic li.play a{
+	border:0;
+	width:91px;
+	background:url(../images/zhifubao.png) no-repeat;
+}
+
+
+
+
+
+
+
+
+
+

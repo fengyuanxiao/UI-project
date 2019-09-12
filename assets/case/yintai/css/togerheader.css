@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*工具===========================================栏*/
+#header{width:100%; height:34px; background:#eee;}
+#header .header{width:1190px; height:34px; margin:0 auto;}
+#header .header .hd-l{height:100%; float:left;}
+#header .header .hd-l li{height:24px; float:left; padding:5px 0; line-height:24px; margin-right:7px; position:relative;}
+
+#header .header .hd-l li span{display:block; width:21px; height:21px; float:left;}
+#header .header .hd-l li span.ind{background:url(../images/topsprite.png) right 0 no-repeat;}
+#header .header .hd-l li:hover span.ind{background:url(../images/topsprite.png) right -27px no-repeat;}
+
+
+#chatdis{position:absolute; left:-5px; top:-5px; display:none;}
+#chatdis div{height:34px; width:100px; cursor:pointer;}
+#header .header .hd-l li span.chat{background:url(../images/topsprite.png) right -57px no-repeat;}
+#header .header .hd-l li:hover span.chat{background:url(../images/topsprite.png) right -87px no-repeat;}
+#header .header .hd-l li:hover #chatdis{display:block;}
+
+
+#phonedis{position:absolute; left:-5px; top:-5px; display:none;}
+#phonedis div{height:38px; width:100px; cursor:pointer;}
+
+#header .header .hd-l li span.phone{background:url(../images/phone.png) center 0 no-repeat;}
+#header .header .hd-l li:hover span.phone{background:url(../images/phone.png) center -20px no-repeat;}
+
+#header .header .hd-l li a{display:block; float:left; height:21px; line-height:21px; padding:0 10px; border-right:1px solid #ccc; color:#666; font-size:12px;}
+
+#header .header .hd-l li.last a{border:0;}
+#header .header .hd-l li:hover a{color:red;}
+#header .header .hd-l li:hover #phonedis{display:block;}
+
+#header .header .hd-r{height:100%; float:right;}
+#header .header .hd-r li{height:24px; float:left; padding:5px 0; line-height:24px;}
+
+#header .header .hd-r li a{padding:0 10px; border-right:1px solid #ccc; color:#666; font-size:12px;}
+#header .header .hd-r li.last a{border:0;}
+
+
+/*LOGO========================================*/
+
+#headlogo{width:100%; height:120px; }
+#headlogo .headlogo{width:1190px; height:120px; margin:0 auto;}
+#headlogo .headlogo h1{margin-top:21px;}
+#headlogo .headlogo h1 a{display:block; width:215px; height:76px;}
+
+#headlogo .headlogo .change{width:145px; height:80px; margin-top:18px;}
+#headlogo .headlogo .change .line{width:1px; height:70px; margin:6px 10px 0; background:#efefef;}
+#headlogo .headlogo .search{width:498px; margin-top:40px; margin-left:145px;}
+#headlogo .headlogo .search .searchbox{width:494px; height:30px; border:2px solid #323333; margin-bottom:8px;}
+#headlogo .headlogo .search .searchbox .tex{width:440px; height:30px; line-height:30px; padding:0 5px; color:#888;}
+#headlogo .headlogo .search .searchbox .btn{width:44px; height:30px; background:url(../images/sprite.png) 0 -78px no-repeat; cursor:pointer;}
+#headlogo .headlogo .search .keyword{width:498px; height:18px; overflow:hidden;}
+#headlogo .headlogo .search .keyword a{margin-right:12px; color:#888;}
+#headlogo .headlogo .search .keyword a:hover{color:red; text-decoration:underline;}
+
+
+#headlogo .headlogo .shopcart{margin:40px 0 0 18px;}
+#headlogo .headlogo .shopcart a{display:block; width:160px; height:34px; background:url(../images/sprite.png) -56px -76px no-repeat}
+#headlogo .headlogo .shopcart a span{height:34px; line-height:34px; padding-left:48px; display:block; color:#fff;}
+
+/*导航=============================================条*/
+#nav {width:100%; height:39px; border-bottom:1px solid #2d2e2e;}
+#nav .nav{width:1190px; height:39px; margin:0 auto;}
+
+#nav .nav .menu{}
+#nav .nav .menu a{display:block; width:210px; height:39px; text-align:center; line-height:39px; font-size:18px; font-weight:bold; background:#222; color:#fff;}
+
+
+#nav .nav .subnav{height:39px; padding-left:20px;}
+#nav .nav .subnav li{float:left; padding:0 15px;}
+#nav .nav .subnav li a{display:block; height:37px;  font-size:16px; padding:0 8px; line-height:37px; color:#323333; font-family:"\5fae\8f6f\96c5\9ed1";}
+#nav .nav .subnav li a:hover{border-bottom:2px solid red; color:red;}
+
+
+#nav .nav .rnav{height:38px; padding-top:1px; color:#cbcbcb;}
+#nav .nav .rnav li{float:left; height:38px; line-height:38px;}
+#nav .nav .rnav li a{padding:0 8px; border-right:1px solid #ccc; color:#666; font-size:14px; }
+#nav .nav .rnav li a:hover{color:red;}
+#nav .nav .rnav li.last a{border:0;}

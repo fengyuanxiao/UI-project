@@ -1,0 +1,691 @@
+@charset "utf-8";
+/* CSS Document */
+#shopinform{width:100%; background:#eee; padding-bottom:20px;}
+#shopinform .w{background:#f4f4f4; padding-bottom:30px;}
+
+
+#shopinform .w .mainshow{
+	width:100%;
+	padding-bottom:10px;
+	overflow:visible;
+
+
+}
+#shopinform .w .mainshow .top{
+	width:1170px;
+	height:46px;
+	padding-left:20px;
+	line-height:46px;
+
+
+}
+#shopinform .w .mainshow .top a{
+	color:#666;
+	padding-left:5px;
+}
+#shopinform .w .mainshow .top a:hover{
+	color:red;
+}
+
+#shopinform .w .mainshow .bottom{
+	width:100%;
+	height:542px;
+	margin-bottom:10px;
+	padding-top:30px;
+	position: relative;
+	background: #fff;
+}
+#shopinform .w .mainshow .bottom .left{
+	width:435px;
+	height:542px;
+}
+#shopinform .w .mainshow .bottom .left .look{
+	width:300px;
+	height:400px;
+	margin:0 auto;
+	position:relative;
+	cursor:all-scroll;
+
+}
+#shopinform .w .mainshow .bottom .left .look img{
+	width:100%;
+	height:100%;
+}
+
+#shopinform .w .mainshow .bottom .left .look .smallshow{
+	width:156px;
+	height:156px;
+	position:absolute;
+	border:1px solid #ccc;
+	left:0;
+	top:0;
+	background: #fff;
+	opacity: 0.5;
+	display:none;
+}
+
+
+
+#shopinform .w .mainshow .bottom .left .conctrl{
+	width:328px;
+	height:82px;
+	margin:10px auto;
+	position:relative;
+}
+#shopinform .w .mainshow .bottom .left .conctrl .conlook{
+	width:288px;
+	height:82px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+#shopinform .w .mainshow .bottom .left .conctrl input{
+	width:9px;
+	height:19px;
+	position:absolute;
+	background:url(../images/zhishijiantou.png) no-repeat 0 -28px;
+	cursor:pointer;
+	top:21px;
+}
+
+#shopinform .w .mainshow .bottom .left .conctrl input.btnl{
+	left:0px;
+}
+#shopinform .w .mainshow .bottom .left .conctrl input.btnl:hover{
+	background-position: -28px -28px;
+}
+#shopinform .w .mainshow .bottom .left .conctrl input.btnr{
+	background-position: -10px -28px;
+	right:0px;
+}
+#shopinform .w .mainshow .bottom .left .conctrl input.btnr:hover{
+	background-position: -38px -28px;
+}
+
+#shopinform .w .mainshow .bottom .left .conctrl .conlook .move{
+	width:532px;
+	height:62px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+#shopinform .w .mainshow .bottom .left .conctrl .conlook .move li.l{
+	width:60px;
+	height:60px;
+	border:1px solid #ccc;
+	margin:0 5px;
+	cursor:pointer;
+}
+#shopinform .w .mainshow .bottom .left .conctrl .conlook .move li.active{
+	border-color:#666;
+}
+#shopinform .w .mainshow .bottom .left .conctrl .conlook .move li.l img{
+	
+	margin:3px 10px 0;
+	width:40px;
+}
+
+
+#shopinform .w .mainshow .bottom .left .link{
+	height:30px;
+	padding-left:54px;
+	position: relative;
+}
+#shopinform .w .mainshow .bottom .left .link p.l{
+	height:30px;
+	line-height:30px;
+	color:#000;
+}
+
+#shopinform .w .mainshow .bottom .left .link ul.l{
+	/*width:150px;*/
+	height:30px;
+	padding-left:30px;
+}
+#shopinform .w .mainshow .bottom .left .link ul.l li.keep{
+	width:58px;
+	height:28px;
+	border:1px solid #fff;
+	cursor: pointer;
+	line-height: 28px;
+}
+#shopinform .w .mainshow .bottom .left .link ul.l li.keep span{
+	width:15px;
+	height:14px;
+	display:inline-block;
+	vertical-align: middle;
+	background: url(../images/xiangqingsprite.png) no-repeat -59px -7px;
+	margin:6px;
+}
+
+
+#shopinform .w .mainshow .bottom .left .link ul.l li.keep:hover{
+	border-color: red;
+	color:red;
+}
+
+
+#shopinform .w .mainshow .bottom .left .link ul.l li.two{
+	width:26px;
+	height:26px;
+	border:2px solid #fff;
+	margin:0 8px;
+
+}
+
+
+
+#shopinform .w .mainshow .bottom .left .link ul.l li.two span{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	margin:3px;
+	background:url(../images/xiangqingsprite.png) no-repeat -4px -4px;
+	cursor: pointer;
+}
+
+#shopinform .w .mainshow .bottom .left .link ul.l li.share span{
+	background-position: -30px -4px;
+}
+
+
+
+#shopinform .w .mainshow .bottom .left .link .chatbox{
+	width:218px;
+	height:84px;
+	padding:8px 6px;
+	border:2px solid #ccc;
+	color:#000;
+	position:absolute;
+	left:283px;
+	top:28px;
+	display:none;
+	background: #fff;
+	z-index:99;
+}
+#shopinform .w .mainshow .bottom .left .link .chatbox a{
+	display:inline-block;
+	width:84px;
+	height:88px;
+	margin:3px;
+}
+#shopinform .w .mainshow .bottom .left .link .chatbox a img{
+	width:100%;
+	height:100%;
+}
+#shopinform .w .mainshow .bottom .left .link .chatbox .chatword{
+	display: inline-block;
+	vertical-align: top;
+	width:108px;
+	height:36px;
+	margin:24px 0 0 15px;
+}
+#shopinform .w .mainshow .bottom .left .link .chatbox .chatword p{
+	height:18px;
+	line-height:18px;
+	text-align:center;
+}
+
+#shopinform .w .mainshow .bottom .left .link .chatbox .line{
+	width:27px;
+	height:2px;
+	position: absolute;
+	left:0;
+	top:-2px;
+	background:#fff;
+}
+#shopinform .w .mainshow .bottom .left .link .sharebox{
+	width:245px;
+	height:55px;
+	border:2px solid #ccc;
+	position:absolute;
+	left:329px;
+	top:28px;
+	display:none;
+	background: #fff;
+	z-index: 99;
+} 
+#shopinform .w .mainshow .bottom .left .link .sharebox .line{
+	position:absolute;
+	width:27px;
+	height:2px;
+	left:0;
+	top:-2px;
+	background:#fff;
+}
+#shopinform .w .mainshow .bottom .left .link .sharebox .shareinside{
+	width:60px;
+	height:36px;
+	padding:9px 0;
+}
+#shopinform .w .mainshow .bottom .left .link .sharebox .shareinside a{
+	display: block;
+	width:20px;
+	height:20px;
+	margin:0 20px;
+	background:url(../images/xiangqingsprite.png) no-repeat -148px 0;
+}
+#shopinform .w .mainshow .bottom .left .link .sharebox .shareinside p{
+	color:#000;
+	text-align:center;
+}
+
+#shopinform .w .mainshow .bottom .bigshow{
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:390px;
+	top:30px;
+	border:1px solid #ccc;
+	display:none;
+	background:url(../images/listbig1.jpg);
+	z-index:99;
+}
+
+
+#shopinform .w .mainshow .bottom .center{
+	width:499px;
+	height:458px;
+	padding:25px 20px 60px;
+}
+#shopinform .w .mainshow .bottom .center h1{
+	font-size:18px;
+	line-height:1.5;
+	font-weight:normal;
+	margin-bottom:20px;
+}
+#shopinform .w .mainshow .bottom .center .price{
+	height:25px;
+	line-height:25px;
+	vertical-align: middle;
+	font-size:14px;
+	margin-bottom:15px;
+}
+#shopinform .w .mainshow .bottom .center .price span{
+	color:#999;
+}
+#shopinform .w .mainshow .bottom .center .price strong{
+	color:#e5004f;
+	font-size:24px;
+	vertical-align: baseline;
+	display: inline-block;
+}
+#shopinform .w .mainshow .bottom .center .price strong em{
+	font-style: normal;
+	font-weight:normal;
+	font-size:18px;
+}
+#shopinform .w .mainshow .bottom .center .price .discount{
+	background:#d4bd8a;
+	color:#fff;
+	font-style:normal;
+	display: inline-block;
+	width:44px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 2px;
+	vertical-align: top;
+}
+#shopinform .w .mainshow .bottom .center .yinprice{
+	height:25px;
+	line-height: 25px;
+	margin:12px 0 30px;
+	color:#999;
+	font-size:14px;
+}
+ 
+#shopinform .w .mainshow .bottom .center .yinprice span{
+	text-decoration: line-through;
+}
+#shopinform .w .mainshow .bottom .center .movetime{
+	height:34px;
+	line-height: 34px;
+	margin-bottom:30px;
+	background: #eff0f4;
+	color:#666;
+}
+#shopinform .w .mainshow .bottom .center .movetime span{
+	display: inline-block;
+	width:49px;
+	height:20px;
+	vertical-align: middle;
+	margin:-3px 10px 0;
+	background: url(../images/xiangqingsprite.png) no-repeat 100% -380px;
+	color:#fff;
+	line-height: 20px;
+	text-align: center;
+}
+#shopinform .w .mainshow .bottom .center .color{
+	height:45px;
+	margin-top: 5px;
+
+}
+#shopinform .w .mainshow .bottom .center .color dt{
+	width:100px;
+	height:20px;
+	line-height:20px;
+	color:#999;
+	font-size:14px;
+}
+#shopinform .w .mainshow .bottom .center .color dd{
+	width:60px;
+	height:40px;
+	/*border:2px solid #e5004f;*/
+	border:1px solid #ccc;
+	line-height: 40px;
+	cursor:pointer;
+	position: relative;
+}
+#shopinform .w .mainshow .bottom .center .color dd:hover{
+	border:1px solid #e5004f;
+}
+#shopinform .w .mainshow .bottom .center .color dd img{
+	width:22px;
+	height:30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: -3px 3px 0;
+}
+#shopinform .w .mainshow .bottom .center .color dd b{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	width:10px;
+	height:10px;
+	display: block;
+	background:url(../images/xiangqingsprite.png) no-repeat 0 -240px;
+	display:none;
+}
+#shopinform .w .mainshow .bottom .center .size{
+	height:30px;
+	margin-top:10px;
+}
+#shopinform .w .mainshow .bottom .center .size dt{
+	width:100px;
+	height:20px;
+	line-height:20px;
+	color:#999;
+	font-size:14px;
+}
+#shopinform .w .mainshow .bottom .center .size dd{
+	height:30px;
+
+}
+#shopinform .w .mainshow .bottom .center .size dd .smbig{
+	width:56px;
+	height:26px;
+	border:1px solid #ccc;
+	text-align: center;
+	line-height: 26px;
+	margin-right:8px;
+	cursor:pointer;
+	position: relative;
+}
+#shopinform .w .mainshow .bottom .center .size dd .smbig b{
+	position: absolute;
+	right:0;
+	bottom: 0;
+	width:10px;
+	height:10px;
+	display: block;
+	background:url(../images/xiangqingsprite.png) no-repeat 0 -240px;
+	display:none;
+}
+
+
+
+#shopinform .w .mainshow .bottom .center .size dd .smbig:hover{
+	border:1px solid #e5004f;
+}
+#shopinform .w .mainshow .bottom .center .buy{
+	
+	height:40px;
+	margin-top:10px;
+}
+#shopinform .w .mainshow .bottom .center .buy .buy-l{
+	width:90px;
+	height:38px;
+	border:1px solid #ccc;
+	margin-right:8px;
+	cursor:pointer;
+}
+#shopinform .w .mainshow .bottom .center .buy .buy-l p{
+	width:51px;
+	height:38px;
+	
+	color:#000;
+	text-align: center;
+	line-height: 38px;
+	font-size:22px;
+}
+#shopinform .w .mainshow .bottom .center .buy .buy-l .btn{
+	width:38px;
+	height:38px;
+
+}
+#shopinform .w .mainshow .bottom .center .buy .buy-l .btn div{
+	width:38px;
+	height:19px;
+	background:url(../images/xiangqingsprite.png) no-repeat 0 -157px;
+
+}
+#shopinform .w .mainshow .bottom .center .buy .buy-l .btn div:hover{
+	background-position:-38px -157px;
+}
+
+#shopinform .w .mainshow .bottom .center .buy .buy-l .btn div.btn-b{
+	background-position: 0 -175px;
+}
+#shopinform .w .mainshow .bottom .center .buy .buy-l .btn div.btn-b:hover{
+	background-position: -38px -175px;
+}
+
+
+#shopinform .w .mainshow .bottom .center .buy .buy-two{
+	width:150px;
+	height:40px;
+	margin-right:15px;
+	border-color:#e5004f; 
+	border:0;
+}
+#shopinform .w .mainshow .bottom .center .buy .nowbuy{
+	background:url(../images/buycar.png) no-repeat 0 -560px;
+}
+#shopinform .w .mainshow .bottom .center .buy .nowbuy:hover{
+	background:url(../images/buycar.png) no-repeat 0 -600px;
+}
+#shopinform .w .mainshow .bottom .center .buy .joincar{
+	background:url(../images/buycar.png) no-repeat;
+}
+#shopinform .w .mainshow .bottom .center .buy .joincar:hover{
+	background:url(../images/buycar.png) no-repeat 0 -40px;
+}
+#shopinform .w .mainshow .bottom .center .promise{
+	height:30px;
+	margin-top: 20px;
+	line-height:30px;
+	background: #f7f3e8;
+	padding-left:10px;
+}
+#shopinform .w .mainshow .bottom .center .promise span{
+	height:30px;
+	line-height:30px;
+	display: inline-block;
+	padding-left:20px;
+	margin-right: 10px;
+	background: url(../images/xiangqingsprite.png) no-repeat 0 -40px;
+}
+
+#shopinform .w .mainshow .bottom .right{
+	width:215px;
+	height:137px;
+	padding:30px 0;
+	
+	
+}
+#shopinform .w .mainshow .bottom .right .pic{
+	display:block;
+	width:210px;
+	border-top:1px solid #ccc;
+	text-align:center;
+
+}
+#shopinform .w .mainshow .bottom .right .pic img{
+	display: inline-block;
+	margin-top:30px;
+}
+#shopinform .w .mainshow .bottom .right h4{
+	width:210px;
+	text-align:center;
+	padding-top:15px;
+	border-bottom:1px solid #ccc;
+	padding-bottom:20px;
+}
+#shopinform .w .mainshow .bottom .right h4 a{
+	color:#999;
+	font-size:15px;
+}
+#shopinform .w .shoppart{
+	
+	
+	margin-top:10px;
+	overflow:hidden;
+}
+#shopinform .w .shoppart .left{
+	width:990px;
+}
+#shopinform .w .shoppart .left .l-top{
+	height:30px;
+	background:#999999;
+}
+#shopinform .w .shoppart .left .l-top .nav{
+	height:30px;
+}
+#shopinform .w .shoppart .left .l-top .nav li{
+	width:120px;
+	height:30px;
+	border-right:1px solid #fff;
+	text-align:center;
+	line-height:30px;
+	cursor:pointer;
+	 color:#fff;
+}
+#shopinform .w .shoppart .left .l-top .nav li.active{
+	background:#b7ab91;
+}
+#shopinform .w .shoppart .left .l-top .jump{
+	height:30px;
+	
+	position: relative;
+}
+#shopinform .w .shoppart .left .l-top .jump .phoneorder{
+	width:148px;
+	height:30px;
+	background:url(../images/xiangqingsprite.png) no-repeat 0 -70px;
+}
+/*#shopinform .w .shoppart .left .l-top .jump .phoneorder:hover{
+	background-position:-148px -70px;
+}*/
+
+#shopinform .w .shoppart .left .l-top .jump .phonebox{
+	width:111px;
+	height:111px;
+	padding:18px 19px 18px 18px;
+	position:absolute;
+	left:0;
+	top:30px;
+	background:#fff;
+	display: none;
+}
+
+#shopinform .w .shoppart .left .l-top .jump .shopcar{
+	width:131px;
+	margin-left:17px;
+	height:30px;
+	background:url(../images/buycar.png) no-repeat 0 -351px;
+	cursor:pointer;
+}
+
+#shopinform .w .shoppart .left .l-top .jump .shopbox{
+	width:326px;
+	height:80px;
+	
+	position:absolute;
+	right:0;
+	top:30px;
+	background:#fff;
+	display: none;
+}
+#shopinform .w .shoppart .left .l-top .jump .shopbox img{
+	margin-right: 6px;
+
+
+}
+#shopinform .w .shoppart .left .l-top .jump .shopbox .word{
+	width:240px;
+	height:54px;
+	padding:10px 0 0 20px;
+}
+#shopinform .w .shoppart .left .l-top .jump .shopbox .word h3{
+	font-size: 12px;
+	line-height:1.5;
+	font-wieght:normal;
+	color:#666;
+}
+#shopinform .w .shoppart .left .l-top .jump .shopbox .word p{
+	font-weight: bold;
+	line-height:1.5;
+	color:#e5004f;
+
+}
+#shopinform .w .shoppart .left .l-bottom{
+
+	background: #fff;
+	padding:5px 35px 5px;
+}
+
+#shopinform .w .shoppart .left .l-bottom .shopmeter{
+	padding-top:15px;
+}
+
+#shopinform .w .shoppart .left .l-bottom .shopmeter .list{
+	padding-top:15px;
+}
+
+#shopinform .w .shoppart .left .l-bottom .shopmeter .tr{
+	color:#666;
+	background:#f3f3f3;
+	overflow: hidden;
+}
+
+#shopinform .w .shoppart .left .l-bottom .shopmeter .odd{
+	background: #fbfbfb;
+}
+
+
+#shopinform .w .shoppart .left .l-bottom .shopmeter .tr .td{
+	width:200px;
+	height:29px;
+	line-height:29px;
+	padding-left:30px;
+
+}
+#shopinform .w .shoppart .left .l-bottom .shopshow{
+	padding-top:32px;
+}
+#shopinform .w .shoppart .left .l-bottom .shopshow .picshow{
+	padding-top:15px;
+}
+#shopinform .w .shoppart .left .l-bottom .shopshow .picshow .pic{
+	width:750px;
+	margin:0 auto;
+}
+
+
+
+
+
+#shopinform .w .shoppart .right:{
+	widht:190px;
+}

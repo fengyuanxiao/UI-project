@@ -1,0 +1,42 @@
+#shoplist{width:100%; padding:15px 0; background:#f4f4f4;}
+#shoplist .w{padding:10px 0;}
+#shoplist .w .shopshow{padding-bottom:10px; overflow: hidden;}
+#shoplist .w .shopshow .item{
+	width:228px;
+	height:450px;
+	background: #fff;
+	margin:0 7px 7px 0;
+}
+#shoplist .w .shopshow .item .it-img{
+	width:228px; height:314px;
+}
+
+#shoplist .w .shopshow .item .it-img img{
+	width:100%; height:100%;
+}
+
+
+
+#shoplist .w .shopshow .item .it-car{
+	width:150px; height:40px;
+	background:url(../images/buycar.png) no-repeat;
+	margin:0 auto; cursor:pointer;
+
+}
+#shoplist .w .shopshow .item .it-car:active{
+	border:1px solid red;
+}
+#shoplist .w .shopshow .item .it-price{
+	font-size:18px;
+	color:#e9004f;
+	margin-top:20px; padding-left:20px;
+}
+#shoplist .w .shopshow .item .it-price span{
+	font-size:16px; color:#ccc;
+	text-decoration: line-through;
+}
+#shoplist .w .shopshow .item .it-href{
+	display:inline-block;
+	font-size:14px; color:#999;
+	padding:5px;
+}

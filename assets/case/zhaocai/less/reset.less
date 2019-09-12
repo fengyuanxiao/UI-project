@@ -1,0 +1,193 @@
+// @media only screen and (max-width: 1080px), only screen and (max-device-width:1080px) {
+//   html,body {
+//       font-size:108px;
+//   }
+// }
+//   @media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+//   html,body {
+//       font-size:96px;
+//   }
+// }
+//   @media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+//   html,body {
+//       font-size:80px;
+//   }
+// }
+// @media only screen and (max-width: 750px), only screen and (max-device-width:750px) {
+//   html,body {
+//       font-size:75px;
+//   }
+// }
+//
+//   @media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+//   html,body {
+//       font-size:72px;
+//   }
+// }
+//   @media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+//   html,body {
+//       font-size:64px;
+//   }
+// }
+//   @media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+//   html,body {
+//       font-size:60px;
+//   }
+// }
+//   @media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+//   html,body {
+//       font-size:54px;
+//   }
+// }
+//   @media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+//   html,body {
+//       font-size:48px;
+//   }
+// }
+//   @media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+//   html,body {
+//       font-size:41.400000000000006px;
+//   }
+// }
+//   @media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+//   html,body {
+//       font-size:40px;
+//   }
+// }
+//   @media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+//   html,body {
+//       font-size:37.5px;
+//   }
+// }
+//   @media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+//   html,body {
+//       font-size:36px;
+//   }
+// }
+//   @media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+//   html,body {
+//       font-size:32px;
+//   }
+// }
+//   @media only screen and (max-width: 240px), only screen and (max-device-width:240px) {
+//   html,body {
+//       font-size:24px;
+//   }
+// }
+
+body,ul,li,h1,h2,h3,h4,p,section,div,header,footer,em,i,span{margin:0;padding:0;box-sizing: border-box; }
+body{font-family: "微软雅黑"; font-size:14px;}
+h1,h2,h3,h4{font-weight: normal;}
+i,em{font-style: normal;}
+a{text-decoration: none;}
+img{vertical-align:middle;}
+ul{list-style: none;}
+button{outline: 0 none;border:none;}
+
+/*px--rem*/
+@A:75px; /* 设计稿的 1/10 */
+.w(@v){width:@v/@A*1rem;}
+.h(@v){height:@v/@A*1rem;}
+
+.pl(@v){padding-left:@v/@A*1rem;}
+.pr(@v){padding-right:@v/@A*1rem;}
+.padding(@t,@r,@b,@l){
+    padding: @t/@A*1rem @r/@A*1rem @b/@A*1rem @l/@A*1rem;
+}
+.margin(@t,@r,@b,@l){
+    margin: @t/@A*1rem @r/@A*1rem @b/@A*1rem @l/@A*1rem;
+}
+.margin-bottom(@t){
+    margin-bottom: @t/@A*1rem;
+}
+.line-height(@v){line-height: @v/@A*1rem;};
+.background-position-x(@x){
+    background-position-x: @x/@A*1rem;
+}
+.background-size(@w,@h){ background-size: @w/@A*1rem @h/@A*1rem;}
+.border-radius(@w){
+            border-radius: @w/@A*1rem;
+    -webkit-border-radius: @w/@A*1rem;
+}
+.bottom(@v){bottom:@v/@A*1rem;}
+.top(@v){top:@v/@A*1rem;}
+
+
+.fs(@v){font-size:@v/@A*1rem;}
+.px2px(@name, @px){
+    @{name}: round(@px / 2) * 1px;
+    [data-dpr="2"] & {
+        @{name}: @px * 1px;
+    }
+    // for mx3
+    [data-dpr="2.5"] & {
+        @{name}: round(@px * 2.5 / 2) * 1px;
+    }
+    // for 小米note
+    [data-dpr="2.75"] & {
+        @{name}: round(@px * 2.75 / 2) * 1px;
+    }
+    [data-dpr="3"] & {
+        @{name}: round(@px / 2 * 3) * 1px
+    }
+    // for 三星note4
+    [data-dpr="4"] & {
+        @{name}: @px * 2px;
+    }
+}
+/*布局 */
+.flex{
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    align-items: center;            /*垂直居中*/
+}
+.flex-sb{
+   justify-content: space-between; /*两端对齐*/
+   -webkit-box-pack:space-between;
+}
+
+.fr{float: right;display: inline}
+
+//网站的通用模块类
+.back{
+    background: url(../img/ico_top_1.png) no-repeat left center;
+    .h(34);
+    .w(50);
+    .background-size(50,34);
+    text-indent: -9999px;
+}
+.menu_btn{
+    background: url(../img/ico_top_2.png) no-repeat left center;
+    .h(34);
+    .w(50);
+    .background-size(50,34);
+}
+
+
+//字体图标
+.font{
+    font-family:webdings;
+    background-color: #FA9A33;
+    .border-radius(20);
+    color:white;
+    &:after{
+        .w(33);
+        .h(33);
+    }
+}
+.font-car{
+    &:after{
+        content: "h";
+    }
+}
+.font-gift{
+    &:after{
+        content: "e";
+    }
+}
+.font-bicycle{
+    &:after{
+        content: "b";
+    }
+}

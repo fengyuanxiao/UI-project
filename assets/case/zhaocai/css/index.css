@@ -1,0 +1,253 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 0.94rem;
+  align-items: center;
+  font-size: 0.3rem;
+  background-color: #FA3432;
+  padding: 0 0.23rem;
+}
+header h1 {
+  font-size: 0.3rem;
+}
+header h1 > span {
+  padding-left: 0.05rem;
+}
+header img {
+  width: 0.47rem;
+  height: 0.49rem;
+}
+header span,
+header a {
+  font-size: 0.3rem;
+  color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  height: 0.86rem;
+  align-items: center;
+}
+nav > div.active {
+  color: #ff3636;
+}
+.banner {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  display: block;
+}
+.banner .swiper-pagination-bullet {
+  width: 0.17rem;
+  height: 0.17rem;
+}
+.banner .swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+.model {
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid #e0e0df;
+}
+.model img {
+  display: block;
+  margin: 0 auto;
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.model p {
+  font-size: 0.24rem;
+  margin-top: 0.1rem;
+  color: #808080;
+}
+.content {
+  background-color: #f9f9f9;
+  padding: 0 0.23rem;
+}
+.content a {
+  color: #4b4a4a;
+}
+.content .hot {
+  display: flex;
+  justify-content: space-between;
+  height: 0.95rem;
+  align-items: center;
+}
+.content .hot img {
+  width: 0.47rem;
+  height: 0.49rem;
+}
+.content .hot h2 {
+  font-size: 0.3rem;
+}
+.content .hot span,
+.content .hot a {
+  font-size: 0.3rem;
+}
+.content .hot a {
+  color: #9a9b9c;
+  font-size: 0.28rem;
+}
+.content .Acontent {
+  display: flex;
+  justify-content: space-between;
+  height: 2.55rem;
+  align-items: center;
+  border: 1px solid #e0e0df;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+.content .Acontent:nth-child(4) {
+  margin-bottom: 0;
+}
+.content .one {
+  flex: 2;
+  height: 100%;
+}
+.content .one p {
+  height: 20%;
+  font-size: 0.28rem;
+}
+.content .one .left {
+  height: 80%;
+  padding: 0.5rem 0 0 15%;
+}
+.content .one .left .a {
+  font-size: 0.38rem;
+  color: #fb4034;
+}
+.content .one .left .b {
+  font-size: 0.24rem;
+  color: #ff7900;
+}
+.content .two {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.content .two span,
+.content .two p {
+  font-size: 0.3rem;
+  color: #9a9b9c;
+}
+.content .two .a {
+  color: #000;
+}
+.content .two .center > div {
+  padding-bottom: 0.15rem;
+  padding-top: 0.45rem;
+}
+.content .three {
+  flex: 1;
+  height: 100%;
+}
+.content .three span {
+  display: inline-block;
+  font-size: 0.22rem;
+  text-align: center;
+  color: #fff;
+}
+.content .three .mars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 20%;
+}
+.content .three .mar {
+  width: 0.85rem;
+  height: 0.3rem;
+  background-color: #ffab37;
+}
+.content .three .imgs {
+  width: 0.33rem;
+  height: 0.3rem;
+  background-color: #ff7404;
+  margin-left: 0.1rem;
+}
+.content .three .imgs img {
+  width: 0.25rem;
+  height: 0.18rem;
+}
+.content .three .can canvas {
+  margin-top: 0.1rem;
+}
+.content-bot {
+  border-top: 1px solid #e2e2e1;
+  border-bottom: 1px solid #e2e2e1;
+  padding: 0.35rem 0.23rem;
+  display: flex;
+  flex-direction: column;
+}
+.content-bot span {
+  color: #929394;
+  font-size: 0.23rem;
+}
+.content-bot a {
+  color: #4b4a4a;
+  font-size: 0.28rem;
+}
+.content-bot .last {
+  margin-bottom: 0;
+}
+.content-bot > div {
+  flex: 1;
+  display: flex;
+  height: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+.content-bot > div .imgs {
+  flex: 0.7;
+  width: 1.1rem;
+}
+.content-bot > div .imgs img {
+  width: 1.1rem;
+  height: 1.1rem;
+  display: block;
+  border-radius: 10px;
+}
+.content-bot > div .center {
+  flex: 2;
+}
+.content-bot > div .center p {
+  font-size: 0.28rem;
+  line-height: 0.5rem;
+}
+.content-bot > div .center span {
+  line-height: 0.6rem;
+  display: block;
+}
+.content-bot > div .time {
+  flex: 1;
+  position: relative;
+}
+.content-bot > div .time > span {
+  position: absolute;
+  right: 0;
+  bottom: 0.4rem;
+}
+.bottom {
+  height: 0.23rem;
+  background-color: #f9f9f9;
+}
+footer {
+  height: 1.65rem;
+  text-align: center;
+}
+footer p {
+  font-size: 0.28rem;
+  color: #494848;
+  padding-top: 0.45rem;
+}
+footer span {
+  font-size: 0.26rem;
+  color: #9a9b9c;
+  line-height: 0.6rem;
+  display: block;
+}
